@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.google.com/specimen/Sen?query=Kosal+Sen#standard-styles');
+
+@font-face {
+    font-family: 'BandeinsStange Bold';
+    src: url('./theme/fonts/BandeinsStrange-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'BandeinsStange Bold Extended Full';
+    src: url('./theme/fonts/BandeinsStrange-BoldExtendedFull.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BandeinsStange Bold Extended Half';
+    src: url('./theme/fonts/BandeinsStrange-BoldExtendedHalf.ttf');
+    font-weight: bold;
+    font-style: normal;
 }
