@@ -1,6 +1,11 @@
 import { createTheme } from '@mui/material/styles';
 import { palette } from './palette';
 import { typography } from './typography';
+import { Theme } from '@mui/material/styles';
+
+declare module '@mui/styles' {
+    interface DefaultTheme extends Theme {}
+}
 
 export const theme = createTheme({
     spacing: 10,
@@ -8,14 +13,7 @@ export const theme = createTheme({
     // overrides,
     typography,
     components: {
-        MuiCssBaseline: {
-            styleOverrides: `
-            @font-face {
-                font-family: 'Sen';
-                font-style: Regular 400;
-            }
-            `
-        },
+        MuiCssBaseline: {},
         MuiButton: {
             styleOverrides: {
                 root: {
