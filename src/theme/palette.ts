@@ -38,7 +38,8 @@ export const palette = createPalette({
     primary: {
         light: greyShades[80],
         main: brand.black,
-        dark: brand.black
+        dark: brand.black,
+        contrastText: brand.white
     },
     secondary: {
         light: decoration.purple.light,

@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 @import url('https://fonts.google.com/specimen/Sen?query=Kosal+Sen#standard-styles');
 
 @font-face {
